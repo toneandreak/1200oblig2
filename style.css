@@ -1,4 +1,26 @@
 
+@media only screen and (max-width: 600px) {
+  #stortittel{
+    font-size: 50px;
+  }
+  #undertittel{ 
+    font-size: 30px;
+  }
+  p{
+    font-size: 16px;
+    font-family:Helvetica, sans-serif;
+  }
+
+}
+
+
+p{
+  font-size: 20px;
+}
+#aside{
+  font-size: 20px;
+}
+
 #stortittel{
 color: rgb(255, 255, 255);
 text-align: center;
@@ -11,7 +33,6 @@ margin-bottom: 0%;
 #undertittel {
     color: rgb(59, 37, 83);
     text-align: center;
-    text-transform: lowercase;
     font-family: 'Righteous';
     font-size: 80px;
     margin-top: 0%;
@@ -25,14 +46,14 @@ margin-bottom: 0%;
 
 div.pictures {
   margin: 5px;
-  border: 1px transparent #ccc;
+  border: 1px;
   float: left;
   width: 500px;
 }
 
 div.pictures:hover {
-  border: 1px solid rgb(59, 37, 83);
-  transform: scale(1.1);
+  border: 1px;
+  transform: scale(1.01);
 }
 
 div.pictures img {
@@ -85,3 +106,7 @@ ul {
  body{
      background-color: rgb(181, 156, 209);
  }
+
+ 
+
+ 
